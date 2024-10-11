@@ -1,10 +1,9 @@
-{
-    "Do homework": {
+[
+    {
         "id": 1,
-        
-        "createdAt": "2022-01-01",
-        "updatedAt": "2022-01-01",
-        "time": "08:00",
-        "status": "pending"
+        "description": "Eat dinner with my friend",
+        "status": "todo",
+        "createdAt": "2024-10-12 02:14:46.105699",
+        "updatedAt": "2024-10-12 02:14:46.105699"
     }
-}
+]
