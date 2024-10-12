@@ -2,6 +2,8 @@
 
 This is a simple command-line interface (CLI) task tracker written in Python. It allows you to add, update, mark as in-progress or done, delete, and list tasks. Tasks are stored in a JSON file (`data.json`).
 
+https://roadmap.sh/projects/task-tracker
+
 ## Features
 
 - **Add a Task**: Add a new task with a description.
@@ -26,7 +28,7 @@ You can interact with the task tracker by typing commands into the terminal. Bel
 ```bash
 #clone this repo
 git clone https://github.com/Shinon2023/Task-Tracker---Roadmap-Project.git
-cd <path your project>
+cd Task-Tracker
 #use this env
 .\env\Scripts\activate
 #run this code
