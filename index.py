@@ -100,8 +100,14 @@ def update (event, data, filename):
         print("Task updated.")
             
 while True:
-    with open(filename, 'r', encoding='utf-8') as json_file:
-        data = json.load(json_file) 
+    if os.path.exists(filename):
+        with open(filename, 'r', encoding='utf-8') as json_file:
+            data = json.load(json_file)
+    else:
+        data = []
+        with open(filename, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
+        
     event = input("Task Tracker... ")
     event = event.split(" ");
     if event[0] == "add":
