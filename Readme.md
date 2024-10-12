@@ -27,7 +27,7 @@ You can interact with the task tracker by typing commands into the terminal. Bel
 
 ```bash
 #clone this repo
-git clone https://github.com/Shinon2023/Task-Tracker---Roadmap-Project.git
+git clone https://github.com/Shinon2023/Task-Tracker.git
 cd Task-Tracker
 #use this env
 .\env\Scripts\activate
